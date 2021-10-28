@@ -68,6 +68,10 @@ app.get('/', (req, res) => {
     res.send('Ema jon server')
 });
 
+app.get('/', (req, res) => {
+    res.send('updated Ema jon server')
+});
+
 app.listen(port, () => {
-    console.log('server running port', port);
+    console.log('server running', port);
 });
